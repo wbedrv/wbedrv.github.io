@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta content="GIH" property="og:title" />
+	<meta content="ddosing wireshark since 2022" property="og:description" />
+	<meta content="https://gih.letz.dev/" property="og:url" />
+	<meta content="https://gih.letz.dev/gih.mp4" property="og:video" />
+	<meta content="#61afef" data-react-helmet="true" name="theme-color" />
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title>GIH</title>
+    	<link rel="stylesheet" href="style.css">
+    	<script>document.body.style.zoom="90%"</script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+		<div class="logo">
+		<a href="/"><h4><img src="gih.png"></h4></a>
+		            <nav>
+              <ul>
+                <li><a href="/">home</a></li>
+                <li><a href="https://discord.gg/pPhV92228h" target="_blank">discord</a></li>
+                <li><a href="mailto:gih@dnmx.org" target="_blank">contact</a></li>
+            </nav>
+	    </nav>
+	</header>
+	<main>
+	
+            <section class="post">
+                <h2>404 - Not Found</h2>
+		<p id="errorMessage"></p>
+		<p id="userAgent"></p>
+		<script>
+		const requestedPage = document.location.pathname || 'Unknown';
+		document.getElementById('errorMessage').textContent = `The requested page '${requestedPage}' has not been found @ gih.letz.dev`;
+		const userAgent = navigator.userAgent || 'Unknown';
+		document.getElementById('userAgent').textContent = `User Agent: ${userAgent}`;
+		</script>
+            </section>
+        </main>
+	</section>
+</body>
+</html>
+
